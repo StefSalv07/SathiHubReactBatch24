@@ -1,0 +1,101 @@
+what is java script variables?
+
+A variable is a Collection or box
+values?
+
+ bool byte  char 
+by all Prog lan as well as js
+
+js
+number (int float double long short)
+String = "hello peple"(char)
+bool-> 
+'V' "Vishakha"
+
+// c prog 
+3 -> float roll = 23.90;
+//compileation error
+
+js
+var let const 
+
+1. var 
+var -> keywords?\
+var nameofvar = "value of the var"
+-----------------------------------------------------------------------------------------------------------------------------------
+Diffeanxce between var and let and const
+2. Let & Const
+
+
+// To understand about the var is that
+-> The data-type of the variable will be defined by it's Value .
+// dynamic scripting lang whcih runs both on browser as well as back-end
+// node js
+
+
+next session -> diff var let and const
+var-> oudated now a days we only use let and const
+const-> is used as a const variable 
+let-> scope based variable 
+-----------------------------------------------------------------------------------------------------------
+01-03-2024
+\
+Var Let and const
+scope
+access Specidfiers and access modfifires?
+
+public-> it is accesed by anyone (var,fuc, class)
+private-> 
+protected->(var,func,class)-> are accessed by child classes or derived 
+
+class Main()
+{
+    public static void main()
+    {
+        protected String name="Shivam";
+        // smae class , child/derived class and their(same) pacakage
+        private int enrll_no=56;
+`       only to the scope of {},can't access in derived class and not even out side of {}
+        public String class="mscit"
+        // same class , derived class , outside the pacakage
+    }
+}
+
+VAR LET AND Const
+
+VAR,LET-> CAN BE RE-ASSIGNED 
+const-> cant be Re-ass///  
+#define PI=3.14
+
+
+browser thinks whole js file as asycn manner
+demo.js
+1-engine will start 
+2
+3
+
+....
+19
+col("smsdo);
+20-> fun()-> take the innpu from the console fun()-> 
+print on to diff page 
+code written
+
+const keyword
+{
+    const has scope
+}
+
+const is used with func + var + file.js
+structure of C prog
+#include<stdio.h>//header.h?
+pre-processor directives->
+
+#include "shivam.h" or  <shivam.h> ./
+main()
+{
+    getch();
+    int num=20;
+    printf("%d",num);//20
+    clrscr();
+}
