@@ -274,3 +274,13 @@ const car2 = Object.create(); // create a new object using an existing object as
 
 
 
+----------------------------------------------github-----------------------------------
+
+1. git init -> inializae a  new empty repo (local machine)
+2. login to the browser and click on new 
+3. name your repository
+4. copy git add remote line from the Stack
+5. cp that line on cmd 
+data is in pipe on your local computer
+5.1 git status -> nothing is added ()
+6. git add .    (data)
