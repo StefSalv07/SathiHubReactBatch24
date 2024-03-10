@@ -284,3 +284,140 @@ const car2 = Object.create(); // create a new object using an existing object as
 data is in pipe on your local computer
 5.1 git status -> nothing is added ()
 6. git add .    (data)
+-----------------------------------------------------------------------------------------------
+
+there are many backend prog lang ?
+1.c
+2.c++
+3.java[env]
+4.python
+
+node js?
+pros of using node js 
+2.which has js lib for running js application
+3.real time server application 
+node js-> Runtime Env + js lib
+
+featues
+1.fast -> extremlyfast
+v8-> code exec()
+2.I/O async management and Event driven
+-> data?
+->7
+    undefined()-> the data is not yet defined for use.
+3.single threaded()
+eventLoop()
+4.non buffering-> exec data from the user or we can say application offset 
+mechanism -> 
+buffer
+i5 i7 processor -> buffer data store ( not in database)
+-> []
+4. input // no process // outp 
+5.open source
+node js 
+-> npm (pacakge) folder 
+node pacakge manager
+client and server
+1.req
+    1.data o/p
+    2.data i/p -> db store 
+    3. id -> details
+    4.image 
+    5.file
+2.res
+    -> mobile phone
+        andorid,react native(cross-platform)-> ios andorid
+            -> api's  
+    -> laptop 
+    html-> data pasre over internet
+    xml-> 
+    dis-advantage
+        1. readability 
+        2.parsing the data ()
+    Json-> java script object notation (object) collections of objects in terms of lib
+
+
+// example data parsing 
+1. sign up-50
+    -1. email id 
+     2. password 
+     3. name
+     slow , parsing data ne 
+     structured -> defined that way only you have to work
+     link -> server client 
+        email: shsh@gmail.com
+        pass:bfsyg
+        name :djbeiu
+        <user> hierachies
+        <email></email>
+        <password>
+            <validate>
+                password-> it shoulb be of 8 charcheters
+
+            </validate>
+            </password>
+        <name></name>
+        </user>
+        valdiation .dml 
+2. json=> root xml -> object 
+{
+    key:value
+}
+
+const user {
+    name: 'John',
+    email:'shsh@gmail.com'
+    {
+        type:'personal'
+        required = true,
+        unique:true// db->pk+pk (super key)
+    }
+    passcode:{
+        type: 'shivam',
+    }
+}
+
+mobile app-> server json (parse)
+web app/site -> json(parse)
+json(
+    node js -> api,
+    nosql -> connection
+        ->find()-> {}
+            sql -> select * from tablename 
+            sql -> select * from tablename where id = 
+            resultSet-> select * from tablename where id = 
+            -> findAll()
+        -> update()
+            sql-> select * from ()
+            set= () update fielName set "";
+           resultSet-> select * from tablename where id = 
+           updated  
+        ->updateOne()
+        -> deleteONe()
+        //-> deleteAll()
+)
+1. effictent -> queryresponse
+2. lightweight-> json()-> object save update del
+3. json() fast -> json (res) -easy for a human being to understand.
+
+
+
+
+        <user> hierachies
+            <email></email>
+            <password>
+                <validate>
+                    password-> it shoulb be of 8 charcheters
+
+            </validate>
+            </password>
+        <name></name>
+        </user>
+json{
+    key:value
+    key: {key: value
+        {
+            key:value
+        }}
+}
+easy to understand
