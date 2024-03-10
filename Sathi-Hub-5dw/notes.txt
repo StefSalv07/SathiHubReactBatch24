@@ -421,3 +421,54 @@ json{
         }}
 }
 easy to understand
+----------------------------------------------MERN------------------------------------
+MONGO-> 
+Express -> middleware 
+
+java servlet pages 
+
+req
+req validate
+req -> 
+-> filter (middlware)
+res
+middleware->express used for validating the data of the web app
+1. authentication
+    secret data secure 
+2. authorization
+3. validation 
+express()
+1. http:hyper text trasfer protocal
+api
+{
+    parameters:{
+
+    }
+    headers:{
+
+    }
+    body{
+
+    }
+}
+    methods:
+    json()-> object notation -> 
+    res res 
+    json 
+    routing -> folder -> specfic file ne communicate between diff files ?
+    render->page goto->page <a href="home.html"a></a>
+    services -> tp services{extrenal api use}
+    payment -> data -> store -db
+    amount -> bal-> 
+
+    paypal -> api use 
+    razorpay ->
+
+    1.req res -> multiple
+    db-> req -> connection (no)
+    db->1. connection() static 
+    env-> PORT -> backend server kaya port -> 9000 ,6000
+    MONGO DB URI-> mongodb://localhost:27017/database name 
+    admin -> testing 
+    usernme nd pass-> 
+    secret-
