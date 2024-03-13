@@ -472,3 +472,59 @@ api
     admin -> testing 
     usernme nd pass-> 
     secret-
+----------------------------------------
+company structure 
+1. product(IT) based company
+ diff level of people working 
+    CEO CFO-> product owner and clients(who give us the defination to built something)
+    DEPT heads-> TEAM LEADER and TECH lead  
+    Employees 
+    poen staff etc..
+    MVC ->
+    Architure of heirerchy
+    >MVC  -> Model View Controller
+
+2. services based company
+-> Cloud computing -> AWS , Google cloud  Azure(microsoft)
+IAAS PAAS SAAS
+
+topic of re-search sunday(3-4pm)
+topmost used software enginnering models in the industry
+what is currently running /used for developmnt
+nodejs.org how are we using the provided mpms 
+---------------------------------
+>MVC  -> Model  Controller
+VIEW -> react js
+MERN stack 
+
+model -> conatines info of database
+controller-> heart of the App/site
+routes-> basically routes via which over data transports over internet
+services-> thirdparty api we use is over services
+config-> just the info of the database or any other third party configuration
+.evn -> enviormental variable 
+PORT-> 3000
+DB conn -> URL of connecting to database is for the first time and last time 
+
+flipkart -> loggedin-> /POST sent to server
+number 
+password
+in the backend flipkart has a post url wwww.flipkart.com/logggedin/user/hfrastukoltlatau5tgaot;otha
+model -> check the fields
+//validation that number data validation +91 9664858715 
+page opened /home/products/tv+51/onida/hfwar25914agfzgyueavftge;atgs4u
+
+model-> developed in Mongo db.
+ask the at the croma store while buying a laptop?
+what is the price
+?
+1,11,000
+? configuration 
+RAM: 8GB
+SSD 128
+GC=TB
+
+entry file-> pilot file or commanding officor -> has liberty for everything 
+server.js -> http server whwre we have info like port number -> on which port my backend services will run?
+// MOngo db connection 
+// routes //
