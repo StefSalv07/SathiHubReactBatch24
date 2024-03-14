@@ -528,3 +528,134 @@ entry file-> pilot file or commanding officor -> has liberty for everything
 server.js -> http server whwre we have info like port number -> on which port my backend services will run?
 // MOngo db connection 
 // routes //
+
+SQl And NOSql
+
+
+mongoDb
+1.Cross Platform DATABASE-> json()
+2.Document Oriented Database
+3.High performance and high availablity
+4.concept of collections/tables
+
+Database?..
+container for collections!
+One line:-> A physical container for storing collections and
+each database has its own set of files on server.
+
+Collection?>
+a group of mongodb Docs.!= RDBMS(table)
+
+
+Docs> KEY VALUE PAIR
+{
+	"key":"value"
+}=>json
+
+{
+	ObjectID:hexadecimal
+	StudentName: shivam(string)
+	EnrollMent Number:(Integer)
+	image:"32bit long url"
+}
+-> dynamic -> can grow whenever you want
+Mobile Web infrastructure
+Contect Management Delivery
+Data hub
+
+
+---------------------------------------------------------\
+Data Models?
+Normalized.
+2-> embedded{
+
+	{Obj_id:'0xbfgpqgf'oath'},
+	{},
+	{},
+}, 
+
+
+		
+
+db.collection_name.insert(documents)
+
+db.users.insert(
+	{
+
+	_id:ObjectId("45678fgjdgtew"),
+	title:"MOngo db revision",
+	desc:"mongo is nosql",
+	by:"shivam",
+	url:"http://localhost:3454/shivam",
+	likes:1
+	}
+
+)
+>
+WriteResult({"nInserted":1})
+
+
+
+
+
+
+
+
+
+
+
+Database engin...
+Data base administrator.
+yash, priyank , shivam etc..
+
+data-> commit (we cant change them )
+rollback()
+//delete * from products -> 
+rollback() 1.5 cr
+database engineer lock()-> session 
+prod -> commit roll back tcl_>
+
+
+-> SQL -> structured Query langauge
+structured-> followed in a simple manner
+Query -> INSERT the Data into table 
+
+DDL-> Data Defination Langauge
+name field shu rehse variable type kevu hase
+DML-> Data manipultion ""
+INSERT DELETE ,UPDATE , SELECT 
+TCL-> Transaction Control
+rollback commit etcc.
+DCL-> Data Control ""
+PK FK Constraints
+
+
+(table)-> data store e specific format
+bridge -> two tables 
+
+
+Student(table name)Entity             Courses(TN)
+id(PK)	1	     		     course Id(PK) 007
+name	yash	      	             Course Name MERN
+roll 	007	     	           Course Taken by			   
+phone 	
+grade	A+
+courseId(fk) course
+stud 
+1-> courseID(name,Taken)
+
+1.student -> FK(link1)
+ 
+
+
+Students who have enrolled in some course?
+> 
+
+
+1. data base creation
+2.use database
+3. table->fields -> 
+4.data insertion
+5.crud operation.
+
+
