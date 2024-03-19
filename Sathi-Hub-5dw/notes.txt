@@ -654,8 +654,226 @@ Students who have enrolled in some course?
 
 1. data base creation
 2.use database
-3. table->fields -> 
+3.table->fields -> 
 4.data insertion
 5.crud operation.
 
+//MERN
+// Express-> middleware which provides a sever to communicate with the connecting backend + frontend
+//global files like system files
+// image upload and sharing links across the internet
+communication link and our computer will work as server
+1. creating a server
+2. express
 
+
+apis ?
+how we can test it?
+front end!
+//postman 
+----------------------------------------------------------
+express-Any lib from web
+steps 
+npm i lib name into cmd 
+
+---------------------------------------------------------------------------------------
+SOAP AND REST API-
+
+API-> Application programming interface
+restro ambiance-> front end
+reqeuests-> panner items -> 
+waiter-> panner -> toofani , bhurji , palak=> touch 
+restro kitchen-> backend
+
+
+backend=> node js config-> signup form
+API-> middleware
+/req
+/signup name nu koi j interface 6e?
+success
+
+, error
+fromtend=> req
+1.authentication
+ATM Card-> expire /
+chip working ?
+prog-> ATM-> live -> api(logic 7903 === database.shivam.pin())
+backend=? res-> 10
+1.withdraw?
+2.deposit->
+yes can deposit?
+10000->
+
+backend->api(if(bal == 0)
+{
+    // cantwithdraw
+}
+else{
+    depodummy = deposit
+    depodummy.save()->10000
+    bal =  bal + depodummy.
+}
+ATM -> exit(0)
+frontend=>res-> "Deposited Successfully"
+)
+1234 1234 1234 1234 //valid
+login-> valdiations
+visa rupay credit/debit
+// password => 7678
+eg finger print face lock  etc
+=? fingerprint ?-> 
+ api-> inteface-> interaction
+//server mesaage -> the user with this pin is valid?
+
+2.authorization.
+bal withdraw , deposit ()->
+
+Once the authentication is done we are bound to authorize.
+
+front-end-> forms?
+data->
+ways?
+
+simple
+ object-> living entity
+  access=>access
+   protocal/rules
+
+   soap -> xml -> heirerchy
+   forntend->>>><formdata>
+        <name></name>
+        <firstName></firstname>
+        <lastname></lastname>
+        <email></email>
+   </formdata>--------------->>backend
+//low-effictent
+//serial nothing
+// data parse -> number -> validate?
+
+REST API ->
+Represnataionl state trasfer-> 
+data -> tranfer (state info)
+theory-> pratical -> i wll represent api
+
+waiter -> order -> status-> order revieved.-> flag =0 flag=1 change in condition there is a change in state
+order-> chef-> status-> order in making
+chef-> waiter-> status-> order Delivery done.
+user-> waiter-> status -> order satisfied successfully
+frontend + backend
+Json({
+    "":""
+})
+
+map 
+filter
+ternary=>
+for_each
+
+TCP?
+3---
+UDP?
+3----
+
+students = 
+[
+    {
+        Student1:{
+            name:"John",
+            age:25,
+            address:  California USA
+        }
+    },
+    {
+        Stundent2:{
+            name:"John",
+            age:25,
+            address:  California USA
+        }
+    }
+{
+
+}
+NODEMON     crash -> syntax error
+
+error?
+try(
+    //code //critical sectiom-> error ava na chances are high
+)
+catch("Exception),
+finally()
+{
+    //alwys exe
+}
+then().catch()
+
+1.installed -> mongoose , express
+2. created a local server to communicate -> webapps/ mobile apps
+3.cloud clusters "mongodb+srv"
+
+your task
+1.Prepare a report on a defination of a project 
+2. data dict
+3. craete a new github repo and folder structure
+
+nomenclature-> whcih was and is followed today also
+
+MVC->
+model view controller(project) logic of api
+
+Organize
+
+React->
+
+I.employee management system()
+
+developing a webapp(dynamic) 
+tonight 
+12+ 
+()
+MERN
+forntend-> 30%-> look n fill
+backend-> 60%->  CRUD operations-> business logic
+data dict-> 10%-> crucial 10%
+actors -> actig in a webapp
+picking up a new defination
+identify the people who will use
+
+
+
+
+1.planning
+2.analysis
+3.documention
+4.designing
+5.implementation
+6.deployment
+7.delivery
+8.maintenance
+
+1.waterfall 
+// no customer interactions
+// no changes to be done after deployment 
+// one build can't modify
+one go (2-9)months
+//constly 
+2.agile model 
+- continous evaluation 
+- develop smaller modules and Delivery
+- dividing the problem in smaller modules
+-timily inputs and timely delivery.
+delelovping a piece of a whole(project)
+-test
+-check for exceptions-while deployed
+-delivery of that piece of code 
+to add features after deploying
+constant evolution of the proejct 
+
+3. scrum (agile) 
+Scrum master -> 10 min breif meet everyday and let the people present their work which they did yesterday
+
+-5-7 per TEAM
+1 Team LEADER
+1 project owner
+
+grp of testers 
+everyone will be all-rounder()
