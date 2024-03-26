@@ -592,7 +592,12 @@ db.users.insert(
 
 )
 >
-WriteResult({"nInserted":1})
+
+
+
+
+
+
 
 
 
@@ -877,3 +882,112 @@ Scrum master -> 10 min breif meet everyday and let the people present their work
 
 grp of testers 
 everyone will be all-rounder()
+----------------------------------------------------------------
+26-03-2024
+TASK
+
+your task
+1.Prepare a report on a defination of a project -> 500
+UScase -> dd -> project ma use tools -> live /local 
+    identify the actors->  
+    tables 
+    session management
+    1.login 
+    2.signup
+    3.forget password
+    4.change password
+2. data dict
+3. craete a new github repo and folder structure
+4.ZOD LIB OF NPM TO validate
+-----------------------------------------------------------
+project updates
+requ-> customer
+res-developer
+
+The person who is going to interact.
+
+
+most changable thing-> on ech and every stage of devlopment
+the DD , project's docs are chnage
+diff of opinions
+eridicate the conflicts between them ->project Docs
+
+should always be updated
+new feature 
+
+public / session controller
+1. login,signUp, 
+    forget password, otp verfication , authenticastion and authorization-100%
+// DEVELOP -> valdiation->TEST- CHANGES -> OPTIMISE
+
+2. CURD 
+// DEVELOP -> TEST- CHANGES -> OPTIMISE
+3. business LOGIC 
+
+line up for this week.
+1.authenticastion
+2.authorization 
+3.login signup , forget password , change password
+4. Post man (deatils)
+---------------------------------------------------------
+//NETWORKING?-> internet -> "blackbox"
+App
+network-> Protocal
+transport-> data -> app to datalink
+datalink
+physical  data being really transferred!
+1. tcP- transmission control protocal
+2.UDP-> uer datagram 
+local-> http://127.0.0.1:5000
+198.456.789.235
+www.google.com->
+1. Domain name
+    www-> 
+    http\
+    https
+    .daiict-> 154.3.4.578 340 trillions
+    billions
+    millions
+    340 trillions
+    .ac-> acedemic, com->commercial
+    .in-> humans->india 
+    .en->
+    Domains
+    1. tld
+        -> in
+2. IP Address?
+    192.168.1.1-> network 
+    4set-> ipv4-> 4 billion 64 bit address 
+    ipv6-> 128 bit address
+
+translator
+webapp
+data -> over the network /local../Domain
+
+internet ki phone book is my Domains
+
+server-> client 
+http/https -> secure socket layer
+
+REST-> apis-> 
+Stateless 
+req -> response life cycle
+data-> 
+small chunks divided
+16bit 64bits
+methods
+POST-> SUBMIT DATA 
+GET-> Retrive data
+PUT-> update 
+DELETE-> remove
+HEAD
+OPTIONS
+
+195.346.789.34 : port 80
+https: 443
+smtp-> 25
+udp-> 53
+ftp-> 20/21
+ssh-> www.domain:ip:22
+
+
