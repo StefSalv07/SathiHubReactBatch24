@@ -101,3 +101,27 @@ exports.getproductById = (req, res) => {
     });
 };
 
+exports.updateProduct = (req, res) => {
+  productSchema
+    .findOneAndUpdate(
+      {
+        _id: req.params.id,
+      },
+      { $set: req.body }
+    )
+    .then((data) => {
+      if (!data) {
+        res.json({
+          message: "Something went wrong while updating the product",
+          status: 400,
+          error: err,
+        });
+      } else {
+        res.json({
+          message: "Product updated successfully",
+          status: 200,
+          data: data,
+        });
+      }
+    });
+};
