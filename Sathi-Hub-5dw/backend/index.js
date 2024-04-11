@@ -1,6 +1,7 @@
 const express = require("express"); // creating the server
 const app = express();
-
+app.use(express.json()); // middleware
+app.use(express.urlencoded({ extended: true })); // middleware
 const mongoose = require("mongoose"); // connecting to database// const axios = require('axios')// calling the services
 // <7-? callback
 mongoose
