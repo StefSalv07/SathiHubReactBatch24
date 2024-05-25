@@ -3,8 +3,7 @@
 // //2.params
 // //3.headers
 // //TPAPI
-// const BadRequest = require("http-errors");
-const zod = require("zod");
+
 // // const object = require("require");
 // const validate = (schema) => (req, res, next) => {
 //   try {
@@ -47,3 +46,4 @@ const validate = (schema) => async (req, res, next) => {
     });
   }
 };
+module.exports = validate;

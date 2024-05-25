@@ -17,7 +17,7 @@ const ProductSchema = new Schema(
       required: true,
       trim: true,
     },
-    pQty: { 
+    pQty: {
       type: Number,
       required: true,
       trim: true,
@@ -29,6 +29,9 @@ const ProductSchema = new Schema(
     updatedAt: {
       type: Date,
       default: Date.now,
+    },
+    email: {
+      type: String,
     },
     // productImage:{
     //     type: String,
