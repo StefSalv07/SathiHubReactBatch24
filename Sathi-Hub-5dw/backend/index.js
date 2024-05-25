@@ -12,13 +12,16 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-app.listen(3000, (err, success) => {
+  
+app.listen(3002, (err, success) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("Server is running on port=>" + 3000);
+    console.log("Server is running on port=>" + 3002);
   }
 }); //where my services will called()
 //
+
+console.log("This is server staring on ----");
 const productRoutes = require("./routes/productRoutes");
 app.use("/products", productRoutes);

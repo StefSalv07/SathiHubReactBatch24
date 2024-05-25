@@ -47,6 +47,7 @@ exports.createProduct = (req, res) => {
 //   });
 // clinet -> req -> all products
 exports.getAllProducts = (req, res) => {
+  console.log(req.headers);
   productSchema
     .find()
     .then((data) => {
@@ -123,5 +124,34 @@ exports.updateProduct = (req, res) => {
           data: data,
         });
       }
+    });
+};
+
+exports.deleteProduct = (req, res) => {
+  productSchema
+    .findOneAndDelete({
+      _id: req.params.id,
+    })
+    .then((data) => {
+      if (!data) {
+        res.json({
+          message: "Something went wrong while deleting the product",
+          status: 400,
+          error: err,
+        });
+      } else {
+        res.json({
+          message: "Product deleted successfully",
+          status: 200,
+          data: data,
+        });
+      }
+    })
+    .catch((err) => {
+      res.json({
+        message: "Something went wrong while deleting the product",
+        status: 400,
+        error: err,
+      });
     });
 };

@@ -991,3 +991,11 @@ ftp-> 20/21
 ssh-> www.domain:ip:22
 
 
+async await ?
+
+
+1,multiple req
+2.async pehla process async -> wait exe
+3.keyword fun-> async banava
+
+javascript-> bydefault synchrones?

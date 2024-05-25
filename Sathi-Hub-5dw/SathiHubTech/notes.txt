@@ -99,3 +99,16 @@ main()
     printf("%d",num);//20
     clrscr();
 }
+
+client -> ?server-> data valid->post -> db?
+field?
+
+devinfotech-> jr -> sal db-> jobid->1200000
+12000->
+9;11: -> iphone 1200-> 34-> 
+912;45-> 1,20,000
+1.schema-> data(valiate) 
+zod()
+product -> 
+users-> middleware->1 validate (schema)
+vendors
